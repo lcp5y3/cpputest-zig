@@ -1,0 +1,17 @@
+.{
+    .name = "cpputest",
+    .version = "4.0.0",
+    .dependencies = .{
+        .cpputest = .{
+            .url = "https://github.com/cpputest/cpputest/archive/refs/tags/v4.0.tar.gz",
+            .hash = "122085ba8e137a7ad8dfafa90ea97aa6cb87a3f1b016b387501a7961b291d40838a7",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+        "README.md",
+    },
+}
